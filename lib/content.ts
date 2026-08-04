@@ -34,6 +34,108 @@ interface AboutStat {
   label: string
 }
 
+const servicesItems: ServiceItem[] = [
+  {
+    id: 'ayurvedic-head',
+    name: 'Ájurvédská masáž hlavy',
+    description:
+      'Jemná, hluboce uvolňující technika s teplým olejem, harmonizující mysl, nervový systém i tok energie v těle.',
+    duration: '50 min',
+    price: 'od 800,-',
+    icon: 'sparkles',
+  },
+  {
+    id: 'trigger-points',
+    name: 'Ošetření spoušťových bodů',
+    description:
+      'Terapeutická technika zaměřená na uvolnění svalových uzlů a zmírnění bolesti prostřednictvím tlaku na specifické body v těle.',
+    duration: '50 min',
+    price: 'od 800,-',
+    icon: 'target',
+  },
+  {
+    id: 'mbs-chiro',
+    name: 'Náprava a korekce metodou z MBS s prvky chiropraxe',
+    description:
+      'Terapeutická technika, která pomocí cílených manuálních zásahů obnovuje správné postavení těla a pohybový aparát.',
+    duration: '50 min',
+    price: 'od 750,-',
+    icon: 'align-center',
+  },
+  {
+    id: 'thai-feet',
+    name: 'Thajská masáž nohou',
+    description:
+      'Tradiční technika, která kombinuje akupresuru, stimulaci reflexních bodů a protahování pro uvolnění napětí a podporu celkového zdraví.',
+    duration: '60 min',
+    price: 'od 900,-',
+    icon: 'footprints',
+  },
+  {
+    id: 'honey-detox',
+    name: 'Medová detoxikační masáž',
+    description:
+      'Relaxační technika, při které se pomocí teplého medu a speciálních hmatů odstraňují toxiny z těla a zlepšuje se prokrvení pokožky.',
+    duration: '60 min',
+    price: 'od 800,-',
+    icon: 'droplet',
+  },
+  {
+    id: 'deep-tissue',
+    name: 'Deep tissue massage',
+    description:
+      'Hloubková masáž zaměřená na uvolnění chronického napětí ve svalech a pojivových tkáních pomocí pomalých, intenzivních tahů.',
+    duration: '60 min',
+    price: 'od 850,-',
+    icon: 'zap',
+  },
+  {
+    id: 'anti-migraine',
+    name: 'Protimigrénová masáž',
+    description:
+      'Cílená relaxační technika zaměřená na uvolnění napětí v oblasti hlavy, krku a ramen s cílem zmírnit nebo předejít migrénám.',
+    duration: '50 min',
+    price: 'od 700,-',
+    icon: 'brain',
+  },
+  {
+    id: 'spinal',
+    name: 'Spinální masáž',
+    description:
+      'Terapeutická masáž zaměřená na oblast páteře, která uvolňuje svalové napětí, podporuje správné držení těla a zlepšuje funkci nervového systému.',
+    duration: '60 min',
+    price: 'od 800,-',
+    icon: 'activity',
+  },
+  {
+    id: 'baby',
+    name: 'Baby masáže (3x)',
+    description:
+      'Jemné dotykové techniky určené pro miminka, které podporují jejich zdravý vývoj, zlepšují spánek a posilují vazbu mezi rodičem a dítětem.',
+    duration: '45 min',
+    price: '950,-',
+    icon: 'baby',
+  },
+  {
+    id: 'pregnancy',
+    name: 'Těhotenská masáž',
+    description:
+      'Jemná masáž určená těhotným ženám, která pomáhá uvolnit napětí, zlepšit prokrvení a zmírnit bolesti spojené s těhotenstvím.',
+    duration: '60 min',
+    price: 'od 850,-',
+    icon: 'heart',
+  },
+  {
+    id: 'kinesio',
+    name: 'Kineziotaping',
+    description:
+      'Terapeutická metoda, při které se na pokožku aplikují elastické pásky s cílem podpořit hojení, zmírnit bolest a zlepšit funkci svalů a kloubů.',
+    duration: '',
+    price: '100,- (+2,- cm)',
+    icon: 'scissors',
+  },
+]
+
 export const siteContent = {
   brand: {
     name: SITE_IDENTITY.name,
@@ -75,108 +177,7 @@ export const siteContent = {
     intro:
       'Nabízím širokou škálu masáží a terapií přizpůsobených vašim individuálním potřebám pro dosažení harmonie těla i mysli.',
     defaultDurationLabel: 'dle dohody',
-    items: [
-      {
-        id: 'ayurvedic-head',
-        name: 'Ájurvédská masáž hlavy',
-        description:
-          'Jemná, hluboce uvolňující technika s teplým olejem, harmonizující mysl, nervový systém i tok energie v těle.',
-        duration: '50 min',
-        price: 'od 800,-',
-        icon: 'sparkles',
-      },
-      {
-        id: 'trigger-points',
-        name: 'Ošetření spoušťových bodů',
-        description:
-          'Terapeutická technika zaměřená na uvolnění svalových uzlů a zmírnění bolesti prostřednictvím tlaku na specifické body v těle.',
-        duration: '50 min',
-        price: 'od 800,-',
-        icon: 'target',
-      },
-      {
-        id: 'mbs-chiro',
-        name: 'Náprava a korekce metodou z MBS s prvky chiropraxe',
-        description:
-          'Terapeutická technika, která pomocí cílených manuálních zásahů obnovuje správné postavení těla a pohybový aparát.',
-        duration: '50 min',
-        price: 'od 750,-',
-        icon: 'align-center',
-      },
-      {
-        id: 'thai-feet',
-        name: 'Thajská masáž nohou',
-        description:
-          'Tradiční technika, která kombinuje akupresuru, stimulaci reflexních bodů a protahování pro uvolnění napětí a podporu celkového zdraví.',
-        duration: '60 min',
-        price: 'od 900,-',
-        icon: 'footprints',
-      },
-      {
-        id: 'honey-detox',
-        name: 'Medová detoxikační masáž',
-        description:
-          'Relaxační technika, při které se pomocí teplého medu a speciálních hmatů odstraňují toxiny z těla a zlepšuje se prokrvení pokožky.',
-        duration: '60 min',
-        price: 'od 800,-',
-        icon: 'droplet',
-      },
-      {
-        id: 'deep-tissue',
-        name: 'Deep tissue massage',
-        description:
-          'Hloubková masáž zaměřená na uvolnění chronického napětí ve svalech a pojivových tkáních pomocí pomalých, intenzivních tahů.',
-        duration: '60 min',
-        price: 'od 850,-',
-        icon: 'zap',
-      },
-      {
-        id: 'anti-migraine',
-        name: 'Protimigrénová masáž',
-        description:
-          'Cílená relaxační technika zaměřená na uvolnění napětí v oblasti hlavy, krku a ramen s cílem zmírnit nebo předejít migrénám.',
-        duration: '50 min',
-        price: 'od 700,-',
-        icon: 'brain',
-      },
-      {
-        id: 'spinal',
-        name: 'Spinální masáž',
-        description:
-          'Terapeutická masáž zaměřená na oblast páteře, která uvolňuje svalové napětí, podporuje správné držení těla a zlepšuje funkci nervového systému.',
-        duration: '60 min',
-        price: 'od 800,-',
-        icon: 'activity',
-      },
-      {
-        id: 'baby',
-        name: 'Baby masáže (3x)',
-        description:
-          'Jemné dotykové techniky určené pro miminka, které podporují jejich zdravý vývoj, zlepšují spánek a posilují vazbu mezi rodičem a dítětem.',
-        duration: '45 min',
-        price: '950,-',
-        icon: 'baby',
-      },
-
-      {
-        id: 'pregnancy',
-        name: 'Těhotenská masáž',
-        description:
-          'Jemná masáž určená těhotným ženám, která pomáhá uvolnit napětí, zlepšit prokrvení a zmírnit bolesti spojené s těhotenstvím.',
-        duration: '60 min',
-        price: 'od 850,-',
-        icon: 'heart',
-      },
-      {
-        id: 'kinesio',
-        name: 'Kineziotaping',
-        description:
-          'Terapeutická metoda, při které se na pokožku aplikují elastické pásky s cílem podpořit hojení, zmírnit bolest a zlepšit funkci svalů a kloubů.',
-        duration: '',
-        price: '100,- (+2,- cm)',
-        icon: 'scissors',
-      },
-    ] as ServiceItem[],
+    items: servicesItems,
   },
   vouchers: {
     heading: 'Dárkové poukazy',
@@ -204,7 +205,7 @@ export const siteContent = {
     stats: [
       { id: 'years', value: 16, suffix: '+', label: 'let zkušeností' },
       { id: 'clients', value: 1500, suffix: '+', label: 'spokojených klientů' },
-      { id: 'massages', value: 12, suffix: '', label: 'druhů masáží' },
+      { id: 'massages', value: servicesItems.length, suffix: '', label: 'druhů masáží' },
     ] as AboutStat[],
     credentials: [
       'Magisterské studium ošetřovatelství na VŠZaSP sv. Alžbety v Bratislavě',
@@ -264,8 +265,8 @@ export const siteContent = {
       flexibilityNote: 'Termíny jsou flexibilní a přizpůsobím se vašim potřebám',
     },
     openingHours: [
-      { day: 'Po–Pá', hours: '15:00–21:00' },
-      { day: 'So', hours: 'Zavřeno' },
+      { day: 'Po–Pá', hours: '15:00–20:00' },
+      { day: 'So', hours: 'Dle objednání' },
       { day: 'Ne', hours: 'Zavřeno' },
     ],
     mapTitle: 'Pohlazení po těle a duši - mapa',
