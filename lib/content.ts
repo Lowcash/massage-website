@@ -265,7 +265,7 @@ export const siteContent = {
       flexibilityNote: 'Termíny jsou flexibilní a přizpůsobím se vašim potřebám',
     },
     openingHours: [
-      { day: 'Po–Pá', hours: '15:00–20:00' },
+      { day: 'Po–Pá', hours: '15:00–21:00' },
       { day: 'So', hours: 'Dle objednání' },
       { day: 'Ne', hours: 'Zavřeno' },
     ],

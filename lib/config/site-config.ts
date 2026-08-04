@@ -117,7 +117,7 @@ export const SITE_CONFIG = {
           'https://schema.org/Friday',
         ],
         opens: '15:00',
-        closes: '20:00',
+        closes: '21:00',
       },
     ],
     areaServedCity: 'Hodonín',
