@@ -210,6 +210,7 @@ export const siteContent = {
       'Magisterské studium ošetřovatelství na VŠZaSP sv. Alžbety v Bratislavě',
       'Specializace v oboru geriatrie',
       'Dlouholetý masér pro zdravotnictví a terapeut',
+      'Zajišťuji zdravotní dozor a první pomoc na akcích',
       'Zkušenosti se zařízeními sociální a zdravotní péče',
       'Učitelka zdravotnických předmětů',
       'Lektor v sociální sféře',

@@ -23,6 +23,7 @@ const ABOUT_CREDENTIAL_EMPHASIS: Record<string, string> = {
   'Magisterské studium ošetřovatelství na VŠZaSP sv. Alžbety v Bratislavě': 'Magisterské studium ošetřovatelství',
   'Specializace v oboru geriatrie': 'geriatrie',
   'Dlouholetý masér pro zdravotnictví a terapeut': 'Dlouholetý masér',
+  'Zajišťuji zdravotní dozor a první pomoc na akcích': 'zdravotní dozor a první pomoc',
   'Zkušenosti se zařízeními sociální a zdravotní péče': 'sociální a zdravotní péče',
   'Učitelka zdravotnických předmětů': 'Učitelka',
   'Lektor v sociální sféře': 'Lektor',
