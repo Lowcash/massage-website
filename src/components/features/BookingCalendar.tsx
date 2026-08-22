@@ -237,7 +237,7 @@ export default function BookingCalendar({ data }: BookingCalendarProps) {
                         href={getSlotWhatsAppUrl(dayData.date, slot.time)}
                         target='_blank'
                         rel='noopener noreferrer'
-                        className='rounded-full border border-[#c97b6f] bg-white px-4 py-2 text-center text-[15px] text-[#5f4540] transition-colors duration-300 ease-out hover:bg-[#c97b6f] hover:text-white'
+                        className='rounded-md border border-[#c97b6f] bg-white px-4 py-2 text-center text-[15px] text-[#5f4540] transition-colors duration-300 ease-out hover:bg-[#c97b6f] hover:text-white'
                       >
                         {slot.time}
                       </a>
@@ -245,7 +245,7 @@ export default function BookingCalendar({ data }: BookingCalendarProps) {
                       <span
                         key={slot.time}
                         aria-disabled='true'
-                        className='cursor-not-allowed rounded-full border border-[#dadada] bg-[#ececec] px-4 py-2 text-center text-[15px] text-[#9f9f9f] line-through'
+                        className='cursor-not-allowed rounded-md border border-[#dadada] bg-[#ececec] px-4 py-2 text-center text-[15px] text-[#9f9f9f] line-through'
                       >
                         {slot.time}
                       </span>
